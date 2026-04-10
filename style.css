@@ -6,6 +6,13 @@ html {
   accent-color: var(--color-accent);
 }
 
+body {
+  font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: max(1em, (100% - 100ch) / 2);
+  padding: 25px 50px 75px 100px;
+}
+
 nav {
   display: flex;
   border-bottom: 1px solid oklch(80% 3% 200);
