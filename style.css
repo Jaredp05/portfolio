@@ -25,7 +25,30 @@ nav a.current {
   padding-bottom: 0.1em;
 }
 
-nav a:not(.current)hover   {
+nav a:hover   {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
+  background-color: oklch(from var(--color-accent) 95% 5% h)3
+}
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  margin-block: 0.5em;
 }
