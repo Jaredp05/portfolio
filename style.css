@@ -1,24 +1,15 @@
 :root {
-    --color-accent: oklch(65% 50% 0);
+  --color-accent: oklch(65% 50% 0);
 }
+
 html {
-    accent-color: var(--color-accent);
+  accent-color: var(--color-accent);
 }
-body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
-  font: 100%/1.5 system-ui;
-  max-width: 100ch;
-  margin-inline: max(1em, (100% - 100ch) / 2);
-  padding: 25px 50px 75px 100px;
-}
+
 nav {
   display: flex;
-  margin-bottom:100px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: oklch(80% 3% 200);
+  border-bottom: 1px solid oklch(80% 3% 200);
+  margin-bottom: 2em;
 }
 
 nav a {
@@ -27,14 +18,14 @@ nav a {
   color: inherit;
   text-align: center;
   padding: 0.5em;
-
 }
 
 nav a.current {
-    border-bottom: 0.4em solid var(--color-accent);
-    padding-bottom: 0.1em;
+  border-bottom: 0.4em solid black;
+  padding-bottom: 0.1em;
 }
 
 nav a:hover {
-    background-color: 0.4em solid var(--color-accent);
+  border-bottom: 0.4em solid var(--color-accent);
+  padding-bottom: 0.1em;
 }
