@@ -25,7 +25,7 @@ nav a.current {
   padding-bottom: 0.1em;
 }
 
-nav a:hover {
+nav a:not(.current)hover   {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
 }
