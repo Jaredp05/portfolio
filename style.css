@@ -14,8 +14,9 @@ body {
 }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
   display: flex;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 2em;
 }
 
@@ -28,18 +29,18 @@ nav a {
 }
 
 nav a.current {
-  border-bottom: 0.4em solid black;
+  border-bottom: 0.4em solid currentColor;
   padding-bottom: 0.1em;
 }
 
 nav a:hover   {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
-  background-color: oklch(from var(--color-accent) 95% 5% h)3
-}
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);}
 input,
 textarea,
-button {
+button,
+select {
   font: inherit;
 }
 
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .resume h2 {
   font-size: 1.5rem;
-  border-bottom: 2px solid oklch(80% 3% 200);
+  border-bottom: 2px solid oklch(50% 10% 200 / 40%);
   padding-bottom: 0.2em;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -137,4 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 .resume time {
   color: #555;
   font-style: italic;
+}
+html {
+  color-scheme: light dark;
+}
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
 }
