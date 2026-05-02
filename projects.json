@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and experience."
+  },
+  {
+    "title": "Data Visualization Dashboard",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created an interactive dashboard to visualize datasets using charts and graphs for easier analysis."
+  },
+  {
+    "title": "Movie Recommendation System",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a recommendation system that suggests movies based on user preferences and ratings."
+  },
+  {
+    "title": "COVID-19 Data Analysis",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed COVID-19 trends using Python and visualized key insights such as case growth and recovery rates."
+  },
+  {
+    "title": "Machine Learning Classifier",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a classification model to predict outcomes using supervised learning techniques."
+  },
+  {
+    "title": "Stock Price Predictor",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed a model to forecast stock prices based on historical data and trends."
+  },
+  {
+    "title": "Weather App",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a simple weather app that fetches real-time data from an API and displays forecasts."
+  },
+  {
+    "title": "Task Manager Application",
+    "year": 2020,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created a task management tool to organize daily activities with features like deadlines and priorities."
+  },
+  {
+    "title": "Sentiment Analysis Tool",
+    "year": 2020,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented a sentiment analysis model to classify text as positive, negative, or neutral."
+  },
+  {
+    "title": "E-commerce Website Prototype",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed a prototype for an online shopping platform with product listings and a shopping cart."
+  },
+  {
+    "title": "Sports Statistics Analyzer",
+    "year": 2019,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed sports performance data and created visualizations to compare player statistics."
+  },
+  {
+    "title": "Chat Application",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a basic chat application allowing users to send and receive messages in real time."
+  }
+]
